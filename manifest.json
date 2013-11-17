@@ -1,0 +1,21 @@
+{
+  "name": "Shark Shopper - E-shop News Aggregator",
+  "version": "0.1",
+   "manifest_version": 2,
+  "description": "Keep up with the latest from Kijiji.",
+  "icons": { "16" : "images/icon.png",
+ 			"48" : "images/48.png",
+			"128" : "images/128.png"},
+  "homepage_url": "http://lifehacker.com/",
+	"background": "background.html",
+	"permissions": [
+	  "http://*/",
+	  "https://*/"
+
+	],
+	"browser_action": {
+    "default_icon": "images/icon.png", 
+    "default_title": "Lifehacker Notifier",      
+    "default_popup": "popup.html"       
+  }
+}
